@@ -1,0 +1,12 @@
+- npm init (command For making new package.json) Use license "MIT" in this project.
+1. Add "type": "module", before scripts
+
+- tsc --init (command For making tsconfig.json)
+
+-for using inquirer.. set the following in tsconfig.json
+1. "target": "******"  into  "target": "ES2022"
+2. "module": "******"  into  "module": "NodeNext"
+3. uncomment the "moduleResolution": "*****" and set to "moduleResolution": "NodeNext",
+
+- npm i inquirer (command to install inquirer)
+- npm i --save-dev @types/inquirer (command for implement inquirer)
